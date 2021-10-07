@@ -21,7 +21,9 @@ public class StudentSolver
 		ArrayList<BigInteger> primes = new ArrayList<BigInteger>();
 		BigInteger prime = new BigInteger("2");
 		primes.add(prime);
-		for(int i = 0; i < 500; i++)
+		//500 6/10
+		//200 10/10
+		for(int i = 0; i < 200; i++)
 		{
 			prime = prime.nextProbablePrime();
 			primes.add(prime);
